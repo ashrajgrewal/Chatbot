@@ -14,3 +14,6 @@ if user_response == "happy":
         return choice(bot_response_okay)
   else:
     return "We need to feel all emotions to stay human :)"
+
+print("Welcome to the Mood Bot")
+print("How do you feel right now? Your mood:")
