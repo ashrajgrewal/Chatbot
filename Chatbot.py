@@ -16,9 +16,9 @@ if user_response == "happy":
     return "We need to feel all emotions to stay human :)"
 
 print("Welcome to the Mood Bot")
-print("How do you feel right now? Your mood:")
+print("How do you feel right now? Enter your mood:")
 user_response = ""
 while True:
-    user_response = input ("How do you feel right now? Your mood:")
+    user_response = input ("How do you feel right now? Enter your mood:")
     if user_response == 'done':
     break
