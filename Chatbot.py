@@ -17,3 +17,8 @@ if user_response == "happy":
 
 print("Welcome to the Mood Bot")
 print("How do you feel right now? Your mood:")
+user_response = ""
+while True:
+    user_response = input ("How do you feel right now? Your mood:")
+    if user_response == 'done':
+    break
